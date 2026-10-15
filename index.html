@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Скачать учебник</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e24;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #aaa;
+            margin-bottom: 25px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 16px 32px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 18px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            transition: background 0.2s;
+        }
+        .btn:active {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Учебник готов к загрузке</h2>
+    <p>Нажмите на кнопку ниже, чтобы сохранить файл на ваше устройство</p>
+    
+    <!-- Чистая ссылка. По клику пользователя мобильный Chrome без вопросов скачает файл целиком -->
+    <a class="btn" href="index.pdf" download="samouchitel_uis.pdf">Скачать PDF (samouchitel_uis)</a>
+
+</body>
+</html>
